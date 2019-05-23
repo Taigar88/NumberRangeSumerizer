@@ -1,0 +1,29 @@
+@Author Taahir Garnie
+
+Explanation of project
+
+So the way I approached the task was to figure out the best way
+to group the data I needed to create the range. This brought me to the
+Algorithm I implemented in the project by checking each node against 
+next sequential node. The way this is achieved is by sorting the array first
+and then checking for a continuous count and grouping them into an array, essentially having
+an array of arrays.
+
+There was another way to group them using a HashMap and then giving each node a specific id for concurrency
+but I opted against that as it was a very complex solution for a simple task.
+
+I then created tools to help with building of strings and checking for duplicates as i was unsure of the
+requirement for duplicate data and opted to keep it structured purely.
+
+As for the other scenarios I could think of like sequential comma, alphabetical characters, required
+separators. I did the error handling within the method as the data would be minimal but would have created specific
+error handling tools using the same logic for more intense volumes of data.
+
+I created a Applet to display the data in a functional way as my understanding would be a full scale project like this would
+be more of a microservice for statistical data gathering. 
+
+I structured the project as I would a Java EE project for more reference. As I took the assumption that the project wanted 
+was stand-alone and not a full SpringBoot/Maven Project due to the scale of the task.
+
+ 
+ 

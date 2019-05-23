@@ -1,0 +1,25 @@
+@Author Taahir Garnie
+
+This is a tutorial on how to run the application.
+
+Step 1
+Navigate to src/numberrangesummarizerMain/
+
+Step 2
+right click application named numberRangeSummarizerMain and run as Applet. 
+
+Step3
+This will open up a Applet and then you can enter specific data as explained on the Applet and view the result.
+
+This is a tutorial on how to run the application with unit testing.
+
+Step 1
+Navigate to src/numberRangeSummarizerTest/
+
+Step 2
+right click application named TestRun and run java application.
+
+step 3
+
+check logs for output of test cases and explained processes.
+
