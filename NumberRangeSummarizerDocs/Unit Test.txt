@@ -1,0 +1,28 @@
+@Author Taahir Garnie
+
+Unit Test
+
+with the unit test i took both the singular approach and multitesting approach 
+to show the versitility of testing. I created 5 test cases based of the info given and
+my assumptions based of user expierience.
+
+Test1.java
+Tests the straightforward scenario of entering a qualifying string and getting back the required grouped list.
+
+
+Test2.java
+Tests the formating of the string and the error that would be thrown if the string has any alpha characters.
+
+Test3.java
+Test the string to see if there are any none permitted separators. like i explained this could be put into individual
+classes for all unknown separators or patterned with a regular expression.
+ 
+Test4.Java
+Removes multiple comma if there is user error that can be corrected by the program. It removes
+Comma separators if there is no data separating them.
+
+Test5.java
+Tests for duplicate values as these values would range on there own and not group with the correct range I check for duplicates
+and inform the user to check the specific data enter to remove the duplicates. Though with the algorithm it could be left to print as its own range.
+
+
